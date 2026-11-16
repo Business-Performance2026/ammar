@@ -163,7 +163,7 @@ footer{padding:40px 0 60px;color:var(--muted);text-align:center;font-size:14px;b
 <div id="progress"></div>
 <nav><div class="wrap" id="navlinks">
   <a href="#intro">المقدمة</a><a href="#lab">التجربة</a><a href="#fleming">قاعدة فليمنج</a>
-  <a href="#why">شرح القوة</a><a href="#motor">تأثير المحرك</a><a href="#video">الفيديوهات</a>
+  <a href="#why">شرح القوة</a><a href="#motor">تأثير المحرك</a>
   <a href="#practice">تدرّب</a><a href="#quiz">اختبر نفسك</a><a href="#summary">الملخص</a>
 </div></nav>
 
@@ -305,44 +305,9 @@ footer{padding:40px 0 60px;color:var(--muted);text-align:center;font-size:14px;b
   </div>
 </div></section>
 
-<!-- 6 video -->
-<section id="video"><div class="wrap">
-  <div class="sec-head"><div class="sec-num">٦</div><h2>فيديوهات الشرح</h2></div>
-  <p class="sub">شاهد الشرح المتحرك داخل الصفحة (مع تعليق صوتي اختياري)، ثم تابع فيديوهات الشرح المختارة على يوتيوب.</p>
-  <div class="player reveal">
-    <canvas id="vidCv" width="1400" height="760"></canvas>
-    <div class="subs" id="vidSub">اضغط ▶ لبدء الشرح المتحرك.</div>
-    <div class="pctrl">
-      <button class="pbtn main" id="vPlay" aria-label="تشغيل">▶</button>
-      <button class="pbtn" id="vPrev" aria-label="السابق">⏮</button>
-      <button class="pbtn" id="vNext" aria-label="التالي">⏭</button>
-      <div class="chapters" id="vChaps"></div>
-      <button class="btn btn-ghost" id="vVoice" style="padding:8px 12px;font-size:13px">🔈 التعليق الصوتي: متوقف</button>
-    </div>
-  </div>
-  <div class="vids">
-    <a class="vid reveal" href="https://www.youtube.com/watch?v=oyVKjrTYDqc" target="_blank" rel="noopener">
-      <div class="thumb" style="background:linear-gradient(135deg,#0f766e,#1e3a8a)"><span class="tag">⭐ نفس المنهج</span><div class="play"></div><div class="big-t">٥-٢ القوة المغناطيسية</div></div>
-      <div class="meta"><b>الصف الثاني عشر – الوحدة الخامسة: ٥-٢ القوة المغناطيسية</b><small>شرح الدرس كاملًا وفق الكتاب • يوتيوب</small></div>
-    </a>
-    <a class="vid reveal" href="https://www.youtube.com/watch?v=LZIy7xJwmHg" target="_blank" rel="noopener">
-      <div class="thumb" style="background:linear-gradient(135deg,#7c2d12,#1e3a8a)"><span class="tag">✋ القاعدة</span><div class="play"></div><div class="big-t">فهم قاعدة فليمنج</div></div>
-      <div class="meta"><b>شرح مبسّط لفهم قاعدة فليمنج لليد اليسرى</b><small>كيف تحدد اتجاه القوة • يوتيوب</small></div>
-    </a>
-    <a class="vid reveal" href="https://www.youtube.com/watch?v=xtQez3V0jAk" target="_blank" rel="noopener">
-      <div class="thumb" style="background:linear-gradient(135deg,#166534,#0f172a)"><span class="tag">🧪 عملي</span><div class="play"></div><div class="big-t">نموذج عملي للقاعدة</div></div>
-      <div class="meta"><b>نموذج عملي لتطبيق قاعدة فليمنج لليد اليسرى</b><small>تطبيق بالمجسّم • يوتيوب</small></div>
-    </a>
-    <a class="vid reveal" href="https://www.youtube.com/watch?v=I9OhTdIf6lw" target="_blank" rel="noopener">
-      <div class="thumb" style="background:linear-gradient(135deg,#581c87,#0f172a)"><span class="tag">📚 محاضرة</span><div class="play"></div><div class="big-t">القوة المغناطيسية</div></div>
-      <div class="meta"><b>شرح القوة المغناطيسية وقاعدة اليد اليسرى لفليمنج</b><small>محاضرة مفصّلة مع أمثلة • يوتيوب</small></div>
-    </a>
-  </div>
-</div></section>
-
 <!-- 7 practice -->
 <section id="practice"><div class="wrap">
-  <div class="sec-head"><div class="sec-num">٧</div><h2>تدرّب: حدّد الاتجاه</h2></div>
+  <div class="sec-head"><div class="sec-num">٦</div><h2>تدرّب: حدّد الاتجاه</h2></div>
   <p class="sub">أسئلة متجددة بلا نهاية. استخدم يدك اليسرى فعلًا! الرمز <b>⊙</b> يعني خارجًا من الصفحة نحوك، و<b>⊗</b> يعني داخلًا إلى الصفحة.</p>
   <div class="modes" id="pModes"></div>
   <div class="score"><span class="pill">✅ الصحيحة: <b id="pOk">0</b></span><span class="pill">📝 المحاولات: <b id="pAll">0</b></span><span class="pill">🔥 سلسلة: <b id="pStreak">0</b></span></div>
@@ -359,14 +324,14 @@ footer{padding:40px 0 60px;color:var(--muted);text-align:center;font-size:14px;b
 
 <!-- 8 quiz -->
 <section id="quiz"><div class="wrap">
-  <div class="sec-head"><div class="sec-num">٨</div><h2>اختبر نفسك</h2></div>
+  <div class="sec-head"><div class="sec-num">٧</div><h2>اختبر نفسك</h2></div>
   <p class="sub">عشرة أسئلة مفاهيمية لقياس فهمك للدرس.</p>
   <div class="quiz card reveal" id="quizBox"></div>
 </div></section>
 
 <!-- 9 summary -->
 <section id="summary"><div class="wrap">
-  <div class="sec-head"><div class="sec-num">٩</div><h2>الملخص</h2></div>
+  <div class="sec-head"><div class="sec-num">٨</div><h2>الملخص</h2></div>
   <p class="sub">أهم ما يجب أن تتذكره.</p>
   <div class="sum">
     <div class="card reveal"><h3>🧲 سبب القوة</h3><p>يتفاعل المجال المغناطيسي للموصل الحامل للتيار مع المجال الخارجي، فيقوى المجال في جهة ويضعف في الأخرى، ويُدفع الموصل من الجهة الأقوى إلى الأضعف.</p></div>
@@ -602,41 +567,6 @@ function drawFieldScene(ctx,W,H,o){
     txt(ctx,'محور الدوران',cx,cy+28,C.muted,12,700);
     txt(ctx,dir>0?'↻ يدور مع عقارب الساعة':'↺ يدور عكس عقارب الساعة',cx,H-18,'#5eead4',15,800);
     requestAnimationFrame(frame);}
-  frame();
-})();
-
-/* ===================== VIDEO (animated lesson) ===================== */
-(function(){
-  const cv=$('#vidCv'),ctx=cv.getContext('2d');ctx.scale(2,2);const W=700,H=380;
-  const scenes=[
-    {t:'نضع سلكًا مستقيمًا بين قطبي مغناطيس دائم. المجال المغناطيسي منتظم ويتجه من القطب الشمالي إلى الجنوبي.',o:{mode:'magnet',cur:0},title:'١. السلك داخل المجال'},
-    {t:'عندما يمرّ تيار كهربائي في السلك (هنا إلى داخل الصفحة)، ينشأ حوله مجال مغناطيسي على شكل دوائر.',o:{mode:'wire',cur:-1},title:'٢. مجال السلك'},
-    {t:'يتّحد المجالان: في جهة اليمين يكونان في الاتجاه نفسه فيتقوّى المجال، وفي جهة اليسار يتعاكسان فيضعف.',o:{mode:'combined',cur:-1,heat:true},title:'٣. المجال المشترك'},
-    {t:'تخيّل خطوط المجال كأشرطة مطاطية مشدودة؛ إنها تدفع السلك من الجهة الأقوى إلى الجهة الأضعف، أي نحو اليسار.',o:{mode:'combined',cur:-1,heat:true,force:true,move:-1},title:'٤. ظهور القوة'},
-    {t:'قاعدة فليمنج لليد اليسرى: السبابة باتجاه المجال، والوسطى باتجاه التيار، فيشير الإبهام إلى اتجاه القوة.',o:{mode:'combined',cur:-1,heat:false,force:true,labels:true},title:'٥. قاعدة فليمنج'},
-    {t:'إذا عكسنا اتجاه التيار، ينعكس اتجاه القوة فيتحرك السلك نحو اليمين. وهذا هو أساس عمل المحرك الكهربائي.',o:{mode:'combined',cur:1,heat:true,force:true,move:1},title:'٦. عكس التيار'}];
-  const DUR=480;let idx=0,t=0,playing=false,voice=false;
-  const chaps=$('#vChaps');scenes.forEach((s,i)=>{const sp=document.createElement('span');sp.innerHTML='<i></i>';sp.title=s.title;sp.onclick=()=>go(i);chaps.appendChild(sp);});
-  function speak(){try{speechSynthesis.cancel();if(!voice)return;const u=new SpeechSynthesisUtterance(scenes[idx].t);u.lang='ar-SA';u.rate=.95;
-    const v=speechSynthesis.getVoices().find(v=>v.lang&&v.lang.startsWith('ar'));if(v)u.voice=v;speechSynthesis.speak(u);}catch(e){}}
-  function go(i){idx=(i+scenes.length)%scenes.length;t=0;$('#vidSub').textContent=scenes[idx].t;if(playing)speak();}
-  $('#vPlay').onclick=()=>{playing=!playing;$('#vPlay').textContent=playing?'⏸':'▶';if(playing){$('#vidSub').textContent=scenes[idx].t;speak();}else{try{speechSynthesis.cancel()}catch(e){}}};
-  $('#vNext').onclick=()=>go(idx+1);$('#vPrev').onclick=()=>go(idx-1);
-  $('#vVoice').onclick=e=>{voice=!voice;e.currentTarget.textContent=voice?'🔊 التعليق الصوتي: يعمل':'🔈 التعليق الصوتي: متوقف';e.currentTarget.classList.toggle('on',voice);if(playing)speak();else{try{speechSynthesis.cancel()}catch(e){}}};
-  function frame(){
-    if(playing){t++;if(t>DUR){if(idx<scenes.length-1)go(idx+1);else{playing=false;$('#vPlay').textContent='↺';idx=0;t=0;}}}
-    const s=scenes[idx],o=Object.assign({},s.o);const k=Math.min(1,t/DUR);
-    const ease=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;
-    o.wdx=o.move?o.move*ease*120:0;
-    ctx.clearRect(0,0,W,H);const g=ctx.createLinearGradient(0,0,0,H);g.addColorStop(0,'#0b1730');g.addColorStop(1,'#081022');ctx.fillStyle=g;ctx.fillRect(0,0,W,H);
-    ctx.globalAlpha=Math.min(1,t/30+ (playing?0:1));drawFieldScene(ctx,W,H,o);ctx.globalAlpha=1;
-    if(o.labels){arrow(ctx,90,120,90,250,C.B,5,16);txt(ctx,'B السبابة',90,100,C.B,16);txt(ctx,'I الوسطى (⊗)',W/2,H/2+44,'#fca5a5',15);}
-    // title badge
-    ctx.font=`900 16px ${FONT}`;const tw=ctx.measureText(s.title).width+24;ctx.fillStyle='rgba(8,16,34,.8)';rr(ctx,W-tw-14,14,tw,32,10);ctx.fill();txt(ctx,s.title,W-14-tw/2,30,'#5eead4',16,900);
-    if(!playing&&t===0&&idx===0){ctx.fillStyle='rgba(0,0,0,.35)';ctx.fillRect(0,0,W,H);ctx.fillStyle='#2dd4bf';ctx.beginPath();ctx.arc(W/2,H/2,38,0,7);ctx.fill();ctx.fillStyle='#03201b';ctx.beginPath();ctx.moveTo(W/2-11,H/2-16);ctx.lineTo(W/2-11,H/2+16);ctx.lineTo(W/2+17,H/2);ctx.fill();txt(ctx,'شرح متحرك • ٦ مشاهد',W/2,H/2+62,'#e8eef9',16,800);}
-    chaps.querySelectorAll('i').forEach((el,i)=>el.style.width=(i<idx?100:i===idx?k*100:0)+'%');
-    requestAnimationFrame(frame);}
-  cv.addEventListener('click',()=>$('#vPlay').click());
   frame();
 })();
 
